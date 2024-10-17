@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hydraulic Press Game - Break items and unlock new ones!">
+    <title>Hydraulic Press Game</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/lzoJqJapCKnuJrtZmnCGGW0NXpMP1rKnSWxGdflc0O-GfxUhfirlc-L3ohfpUMobxRNV" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://lh3.googleusercontent.com/lzoJqJapCKnuJrtZmnCGGW0NXpMP1rKnSWxGdflc0O-GfxUhfirlc-L3ohfpUMobxRNV" alt="Hydraulic Press Icon" class="animated-icon">
+            <h1 class="animated-title">Hydraulic Press Game</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="description">
+            <h2>Game Description</h2>
+            <p>Complete tasks and you'll receive a chest that contains a new item to break! Click the screen to speed up the crushing process. Use the arrows in the menu to switch between the shop's menu. Stay tuned for updates – the game is actively being developed!</p>
+        </section>
+
+        <section class="update">
+            <h2>What's New in Version 1.0.7</h2>
+            <ul>
+                <li>— Brand new design for a better user experience</li>
+                <li>— Performance optimization for smoother gameplay</li>
+                <li>— Playing has never been more fun!</li>
+            </ul>
+        </section>
+
+        <section class="developer">
+            <h2>About the Developer</h2>
+            <p>Developed by KirilGD</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 KirilGD</p>
+    </footer>
+
+    <script>
+        // Simple animation for icon and title on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            const icon = document.querySelector('.animated-icon');
+            const title = document.querySelector('.animated-title');
+            const blocks = document.querySelectorAll('main section');
+
+            setTimeout(() => {
+                icon.style.transform = 'scale(1)';
+                title.style.opacity = '1';
+            }, 200);
+
+            blocks.forEach((block, index) => {
+                setTimeout(() => {
+                    block.style.transform = 'translateY(0)';
+                    block.style.opacity = '1';
+                }, 500 + (index * 200));
+            });
+        });
+    </script>
+</body>
+</html>
