@@ -1,4 +1,4 @@
-# <img src="logo.webp" alt="Hydraulic Press Game" style="border-radius: 15px; height: 50px; vertical-align: middle;"/> Hydraulic Press Game
+# <img src="logo.webp" alt="Hydraulic Press Game" style="border-radius: 15px; height: 50px; vertical-align: middle;"/> <span style="vertical-align: middle; line-height: 50px;">Hydraulic Press Game</span>
 
 Welcome to **Hydraulic Press Game**! In this exciting game, you will complete tasks and unlock chests containing new items to crush with a powerful hydraulic press.
 
