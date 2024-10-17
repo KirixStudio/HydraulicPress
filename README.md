@@ -19,7 +19,9 @@ Hydraulic Press Game is developed by **KirilGD**. Stay tuned for future updates,
 ## Download
 You can download the game by clicking the button below:
 
-[![Get it on Google Play](Google_Play_Store_badge_EN.svg.webp)](https://play.google.com/store/apps/details?id=com.kirilgd_hydraulic_press)
+<a href="https://play.google.com/store/apps/details?id=com.kirilgd_hydraulic_press">
+    <img src="Google_Play_Store_badge_EN.svg.webp" alt="Get it on Google Play" width="200"/>
+</a>
 
 ---
 
