@@ -1,4 +1,4 @@
-# Hydraulic Press Game
+# ![Hydraulic Press Game](logo.webp)
 
 Welcome to **Hydraulic Press Game**! In this exciting game, you will complete tasks and unlock chests containing new items to crush with a powerful hydraulic press.
 
@@ -20,7 +20,7 @@ Hydraulic Press Game is developed by **KirilGD**. Stay tuned for future updates,
 You can download the game by clicking the button below:
 
 <a href="https://play.google.com/store/apps/details?id=com.kirilgd_hydraulic_press">
-    <img src="Google_Play_Store_badge_EN.svg.webp" alt="Get it on Google Play" width="200"/>
+    <img src="Google_Play_Store_badge_EN.svg.webp" alt="Get it on Google Play" width="250"/>
 </a>
 
 ---
